@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="video-container">
+    <video autoplay muted loop id="video">
+        <source src="vid/vid.webm" type="video/webm">
+    </video>
+    <div class="overlay"></div>
+    <div id="main-container">
+        <img src="img/5beb8a.png" alt="rust classic big logo" />
+        <div id="main-buttons">
+            <a href="#how-to-play-section" class="download-button">DOWNLOAD</a>
+            <a href="https://discord.gg/98MxB3zvD9" id="about-button">
+                DISCORD
+                <svg width="30px" height="30px" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                    <g>
+                        <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#e4dad1" fill-rule="nonzero">
+
+                        </path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<section id="about-section">
+    <div id="about">
+        <div>
+            <h1>Rust Classic</h1>
+            <p>Rust Classic is a community Rust server running on an early version of the game, back when it was known as Rust Experimental. This is a nostalgic throwback to the old Rust experience, featuring the original XP progression system, classic gunplay, and the raw, unforgiving world that defined Rust in its early days.</p>
+
+            <p>If you miss the era before tech trees, safe zones, team UI, and modern mechanics, this server is for you. Whether you're a veteran looking to relive the past or a new player curious about how Rust used to be, Rust Classic brings back the true old-school experience.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Notable Features Section -->
+<section id="features-section">
+    <div id="features">
+        <h2>Notable Features</h2>
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <h3>Raw gunplay</h3>
+                <img src="img/gunplay.webp" alt="feature 1" />
+                <p>Weapons in Rust Classic have distinct handling, recoil, and impact, making combat more skill-based and rewarding. Every gun has a unique feel, requiring precision and mastery.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Old sounds</h3>
+                <img src="img/sounds.webp" alt="feature 1" />
+                <p>Experience the original sound effects that made Rust immersive. From distinct weapon audio to environmental ambience and the classic Rust soundtracks.</p>
+            </div>
+            <div class="feature-card">
+                <h3>XP progression System</h3>
+                <img src="img/xpsystem.webp" alt="feature 1" />
+                <p>Unlock new items by leveling up. Earn XP through gameplay, progress through levels, and gradually gain access to weapons, tools, and building items.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Pre HDPR graphics</h3>
+                <img src="img/graphics.webp" alt="feature 1" />
+                <p>Experience Rust’s original vibrant and sharp visuals before the HDPR update. The colors are richer, the details clearer, and the world feels more immersive.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Bright nights</h3>
+                <img src="img/nights.webp" alt="feature 1" />
+                <p>Nights in Rust Classic aren’t pitch black. You can still navigate the world, spot enemies, and stay aware of your surroundings, making nighttime gameplay more balanced and engaging.</p>
+            </div>
+            <div class="feature-card">
+                <h3>High fps</h3>
+                <img src="img/fps.webp" alt="feature 1" />
+                <p>Rust Classic runs up to 200% faster, offering significantly higher FPS than modern Rust. This means a stable, lag-free experience even on older PCs.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Placeable quarries</h3>
+                <img src="img/quarry.webp" alt="feature 1" />
+                <p>Instead of relying on fixed quarry locations, players can craft and place their own quarries inside their bases or wherever they see fit, adding more control to resource gathering.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Old decay system</h3>
+                <img src="img/decay.webp" alt="feature 1" />
+                <p>No need to constantly refill tool cupboards with resources. Rust Classic brings back the old decay system, making base upkeep simpler and less demanding.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Paper maps</h3>
+                <img src="img/map.webp" alt="feature 1" />
+                <p>Discover the island as you go, maps don’t reveal everything automatically. Craft your own map and mark key locations like bases, landmarks, and resources to keep track of your surroundings.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Notable Features Section -->
+<!-- How to Play Section -->
+<section id="how-to-play-section">
+    <div id="how-to-play">
+        <h2>How to play</h2>
+        <p>1. Download the Old Client Game Files</p>
+        <a href="/" class="download-button">
+            <svg id="download-svg" viewBox="0 0 20 20">
+                <path d="M 2 16 L 18 16 L 18 18 L 2 18 Z M 9 2 L 11 2 L 11 10.172 L 13.536 7.636 L 14.95 9.05 L 10 14 L 5.05 9.05 L 6.464 7.636 L 9 10.172 Z"></path>
+            </svg>
+            Rust client - Devblog 131
+        </a>
+
+        <p class="important">You must own Rust on Steam in order to play!</p>
+        <p>2.  Extract the downloaded files to a folder of your choice.</p>
+        <img src="img/files.webp" alt="game files">
+        <p>3. Run RustClient.exe</p>
+        <p class="important">Ensure that Steam is running before launching the game!</p>
+        <p>4. Connect to the Rust Classic server and start playing!</p>
+        <img src="img/server.webp" alt="rust classic server">
+        <p>
+            Need help? Join our
+            <a href="https://discord.gg/98MxB3zvD9">Discord</a> if you encounter any issues!
+        </p>
+    </div>
+</section>
+
+</body>
+
+</html>
+
+
+
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #151413;
+        color: #e4dad1;
+    }
+
+    h1, h2, h3 {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.75rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    
+    p a {
+        color: #b83a27;
+        text-decoration: none;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+
+    header {
+        background-color: #222;
+        padding: 0 15%;
+        position: relative;
+        z-index: 3;
+    }
+
+        header a img {
+            width: 110px;
+            padding: 0.6rem;
+        }
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .important {
+        background-color: #510707;
+        padding: 0.3rem;
+        border: 1px solid #b83a27;
+        color: #e4dad1;
+    }
+
+    #main-container {
+        position: absolute;
+        z-index: 3;
+        max-width: 40vw;
+        width: 500px;
+        height: auto;
+        top: 30%;
+        transform: translateY(-30%);
+        right: 10%;
+    }
+
+        #main-container img {
+            width: 100%;
+        }
+
+    #main-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    #main-buttons a {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 0.5rem;
+        font-size: 1.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .download-button {
+        border: none;
+        color: #e4dad1;
+        background-color: #b83a27;
+        font-family: "Bebas Neue", serif;
+        text-decoration: none;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        font-size: 25px;
+        gap: 0.5rem;
+    }
+
+    #how-to-play .download-button {
+        margin: 0rem 5rem;
+    }
+
+    #download-svg {
+        height: 1.5rem;
+        fill: #e4dad1
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #about-button {
+        color: #e4dad1;
+        border: 2px solid #4c4946;
+        background-color: #2a2928;
+    }
+
+    #about-section {
+        position: relative;
+        overflow: hidden;
+    }
+
+        #about-section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: url("img/background.png") no-repeat center center / cover;
+            opacity: 0.25;
+            z-index: 1;
+        }
+
+    #about {
+        position: relative;
+        z-index: 2;
+        max-width: 25%;
+        margin: 5rem auto;
+        padding: 2rem 10rem;
+        background-color: #272727;
+    }
+
+    /* Notable Features Section */
+    #features-section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    #features {
+        position: relative;
+        z-index: 2;
+        max-width: 60%;
+        margin: 5rem auto;
+        padding: 2rem 10rem;
+        background-color: #272727;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .feature-card {
+        background-color: #1e1e1e;
+        border: 1px solid #4c4946;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+        .feature-card img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 30px;
+            margin: 0.5rem 0;
+        }
+    /* End Notable Features Section */
+
+
+
+    #own-rust {
+        display: flex;
+        margin: 1rem 0rem;
+        background-color: #ee3a3a4a;
+        border: #b83a27 1px solid;
+    }
+
+        #own-rust img {
+            width: 80px;
+        }
+
+    @media (max-width: 1024px) {
+        #main-container {
+            right: 5%;
+            max-width: 50vw;
+            width: 400px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #about {
+            max-width: 80%;
+        }
+
+        #main-container {
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 60vw;
+            width: 300px;
+        }
+
+        #features {
+            max-width: 80%;
+            padding: 2rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        #main-container {
+            max-width: 80vw;
+            width: 250px;
+        }
+    }
+
+    video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(rgba(43, 41, 36, 0.5), rgba(43, 41, 36, 0.75), #2B2924);
+        z-index: 2;
+    }
+
+    /* How to Play Background Section */
+    #how-to-play-section {
+        position: relative;
+        overflow: hidden;
+    }
+
+        #how-to-play-section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: url("img/background2.png") no-repeat center center / cover;
+            opacity: 0.2; /* Adjust to your preference */
+            z-index: 1;
+        }
+
+    /* The existing #how-to-play styles, plus ensure it sits above the background */
+    #how-to-play {
+        position: relative;
+        z-index: 2;
+        max-width: 500px;
+        margin: 5rem auto;
+        background-color: #272727;
+        padding: 3rem;
+    }
+    
+
+</style>
